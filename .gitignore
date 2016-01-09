@@ -1,0 +1,5 @@
+# Folder view configuration files.
+.DS_STORE
+
+# Dependency directory.
+node_modules
