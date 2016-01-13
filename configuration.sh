@@ -6,13 +6,8 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 
 
-## UI.
-
 # Show scrollbars only when scroll.
 defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
-
-# Use Graphite Highlight Color.
-defaults write NSGlobalDomain AppleHighlightColor -string "0.780400 0.815700 0.858800"
 
 
 
@@ -45,6 +40,16 @@ defaults write com.apple.finder ShowPathbar -bool true
 
 # When performing a search, search the current folder by default.
 defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
+
+
+
+## UI.
+
+# Use Graphite Appearance.
+defaults write NSGlobalDomain AppleAquaColorVariant -int 6
+
+# Use Graphite Highlight Color.
+defaults write NSGlobalDomain AppleHighlightColor -string "0.780400 0.815700 0.858800"
 
 
 
