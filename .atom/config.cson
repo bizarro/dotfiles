@@ -1,0 +1,23 @@
+"*":
+  core:
+    themes: [
+      "atom-material-ui"
+      "atom-material-syntax"
+    ]
+  editor:
+    fontSize: 12
+    invisibles: {}
+    showIndentGuide: true
+    showInvisibles: true
+  emmet: {}
+  "exception-reporting":
+    userId: "fce57e18-03e3-e03b-7c6b-f5aa2d46dbaa"
+  linter:
+    errorPanelHeight: 99
+  "linter-js-standard":
+    lintMarkdownFiles: true
+    showEslintRules: true
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
