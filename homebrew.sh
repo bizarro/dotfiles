@@ -16,16 +16,20 @@ brew install git
 
 brew install brew-cask
 
-brew cask install google-chrome
-brew cask install firefox
-brew cask install nylas-n1
-brew cask install vlc
-brew cask install the-unarchiver
-brew cask install transmission
-brew cask install slack
 brew cask install atom
+brew cask install chromium
+brew cask install google-chrome
+brew cask install slack
+brew cask install transmission
 brew cask install blender
+brew cask install filezilla
+brew cask install nylas-n1
+brew cask install teamviewer
+brew cask install vlc
+brew cask install brackets
+brew cask install firefox
 brew cask install processing
+brew cask install the-unarchiver
 
 # Remove outdated versions from the cellar.
 brew cleanup

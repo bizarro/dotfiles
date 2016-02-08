@@ -11,7 +11,7 @@ defaults write NSGlobalDomain AppleShowScrollBars -string "WhenScrolling"
 
 
 
-## Keyboard
+## Keyboard.
 
 # Disable press-and-hold for keys in favor of key repeat.
 defaults write NSGlobalDomain ApplePressAndHoldEnabled -bool false
@@ -21,6 +21,13 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 
 # Enable full keyboard access for all controls.
 defaults write NSGlobalDomain AppleKeyboardUIMode -int 3
+
+
+
+# Mouse.
+
+# Set a blazingly fast mouse rate.
+defaults write -g com.apple.mouse.scaling -float 4
 
 
 
@@ -46,17 +53,18 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 ## UI.
 
 # Use Graphite Appearance.
-defaults write NSGlobalDomain AppleAquaColorVariant -int 6
-
-# Use Graphite Highlight Color.
-defaults write NSGlobalDomain AppleHighlightColor -string "0.780400 0.815700 0.858800"
+defaults write NSGlobalDomain AppleAquaColorVariant -int 1
 
 
 
 ## Dock.
 
-# Set the icon size of Dock items to 36 pixels.
-defaults write com.apple.dock tilesize -int 36
+# Set the icon size of Dock items.
+defaults write com.apple.dock tilesize -int 35
+defaults write com.apple.dock largesize -int 128
+
+# Set the position of Dock.
+defaults write com.apple.dock orientation -string right
 
 # Show indicator lights for open applications in the Dock.
 defaults write com.apple.dock show-process-indicators -bool true
@@ -96,8 +104,8 @@ defaults write com.apple.dock wvous-tl-modifier -int 0
 defaults write com.apple.dock wvous-tr-corner -int 4
 defaults write com.apple.dock wvous-tr-modifier -int 0
 
-# Bottom left screen corner → Start screen saver
-defaults write com.apple.dock wvous-bl-corner -int 5
+# Bottom left screen corner → Launchpad.
+defaults write com.apple.dock wvous-bl-corner -int 11
 defaults write com.apple.dock wvous-bl-modifier -int 0
 
 

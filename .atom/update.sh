@@ -1,1 +1,1 @@
-apm list --installed --bare > ~/.atom/package-list.txt
+apm list --installed --bare > ~/.atom/packages.txt
