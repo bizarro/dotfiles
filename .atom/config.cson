@@ -1,23 +1,31 @@
 "*":
+  "atom-material-ui":
+    fonts: {}
+    panels:
+      panelContrast: true
+    tabs:
+      rippleAccentColor: true
+      tabMinWidth: true
+    treeView: {}
+    ui:
+      accentColor: "Purple"
+      slimScrollbar: true
   core:
     themes: [
       "atom-material-ui"
-      "atom-material-syntax"
+      "robin-hood-syntax"
     ]
   editor:
-    fontSize: 12
+    fontSize: 11
     invisibles: {}
     showIndentGuide: true
-    showInvisibles: true
-  emmet: {}
   "exception-reporting":
-    userId: "fce57e18-03e3-e03b-7c6b-f5aa2d46dbaa"
-  linter:
-    errorPanelHeight: 99
-  "linter-js-standard":
-    lintMarkdownFiles: true
-    showEslintRules: true
+    userId: "474dbd4b-ebd7-5475-8928-f66c9023c4d5"
+  "glsl-preview": {}
+  minimap: {}
+  pigments: {}
   "tree-view":
     hideVcsIgnoredFiles: true
+  "vim-mode": {}
   welcome:
     showOnStartup: false
