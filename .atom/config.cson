@@ -1,31 +1,33 @@
 "*":
   "atom-material-ui":
+    colors:
+      abaseColor:
+        red: 126
+        green: 87
+        blue: 194
+        alpha: 1
+      accentColor:
+        red: 176
+        green: 228
+        blue: 87
+        alpha: 1
+      predefinedColor: "Purple"
     fonts: {}
-    panels:
-      panelContrast: true
-    tabs:
-      rippleAccentColor: true
-      tabMinWidth: true
-    treeView: {}
+    tabs: {}
+    treeView:
+      blendTabs: true
+      compactList: true
     ui:
-      accentColor: "Purple"
-      slimScrollbar: true
+      panelContrast: true
   core:
     themes: [
       "atom-material-ui"
-      "robin-hood-syntax"
+      "atom-material-syntax"
     ]
   editor:
-    fontSize: 11
+    fontSize: 10
     invisibles: {}
-    showIndentGuide: true
   "exception-reporting":
-    userId: "474dbd4b-ebd7-5475-8928-f66c9023c4d5"
-  "glsl-preview": {}
-  minimap: {}
-  pigments: {}
-  "tree-view":
-    hideVcsIgnoredFiles: true
-  "vim-mode": {}
+    userId: "f094f749-798d-0c9e-c155-53fec054b333"
   welcome:
     showOnStartup: false

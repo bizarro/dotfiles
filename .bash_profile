@@ -5,4 +5,5 @@ export PATH="$HOME/bin:$PATH";
 for file in ~/.{bash_aliases,bash_prompt,bash_functions}; do
     [ -r "$file" ] && [ -f "$file" ] && source "$file";
 done;
+
 unset file;
