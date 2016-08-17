@@ -16,20 +16,17 @@ brew install git
 
 brew install brew-cask
 
-brew cask install android-studio
 brew cask install atom
-brew cask install blender
+brew cask install ccleaner
 brew cask install filezilla
-brew cask install firefox
 brew cask install google-chrome
 brew cask install hexchat
-brew cask install java
-brew cask install nylas-n1
-brew cask install processing
-brew cask install slack
+brew cask install skype
+brew cask install spotify
 brew cask install the-unarchiver
 brew cask install transmission
 brew cask install vlc
+brew cask install xampp
 
 # Remove outdated versions from the cellar.
 brew cleanup
