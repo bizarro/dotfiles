@@ -43,16 +43,6 @@ defaults write com.apple.finder FXDefaultSearchScope -string "SCcf"
 
 
 
-## UI.
-
-# Use Graphite Appearance.
-defaults write NSGlobalDomain AppleAquaColorVariant -int 6
-
-# Use Graphite Highlight Color.
-defaults write NSGlobalDomain AppleHighlightColor -string "0.780400 0.815700 0.858800"
-
-
-
 ## Dock.
 
 # Set the icon size of Dock items to 36 pixels.
@@ -87,18 +77,17 @@ defaults write com.apple.dashboard mcx-disabled -bool true
 
 
 ## Hot Corners.
+defaults write com.apple.dock wvous-bl-corner -int 11
+defaults write com.apple.dock wvous-bl-modifier -int 0
 
-# Top left screen corner → Mission Control.
-defaults write com.apple.dock wvous-tl-corner -int 2
+defaults write com.apple.dock wvous-br-corner -int 2
+defaults write com.apple.dock wvous-br-modifier -int 0
+
+defaults write com.apple.dock wvous-tl-corner -int 1
 defaults write com.apple.dock wvous-tl-modifier -int 0
 
-# Top right screen corner → Desktop.
 defaults write com.apple.dock wvous-tr-corner -int 4
 defaults write com.apple.dock wvous-tr-modifier -int 0
-
-# Bottom left screen corner → Start screen saver
-defaults write com.apple.dock wvous-bl-corner -int 5
-defaults write com.apple.dock wvous-bl-modifier -int 0
 
 
 

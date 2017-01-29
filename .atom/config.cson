@@ -1,33 +1,17 @@
 "*":
-  "atom-material-ui":
-    colors:
-      abaseColor:
-        red: 126
-        green: 87
-        blue: 194
-        alpha: 1
-      accentColor:
-        red: 176
-        green: 228
-        blue: 87
-        alpha: 1
-      predefinedColor: "Purple"
-    fonts: {}
-    tabs: {}
-    treeView:
-      blendTabs: true
-      compactList: true
-    ui:
-      panelContrast: true
   core:
+    telemetryConsent: "no"
     themes: [
-      "atom-material-ui"
-      "atom-material-syntax"
+      "one-dark-ui"
+      "monokai"
     ]
   editor:
-    fontSize: 10
-    invisibles: {}
+    fontSize: 12
   "exception-reporting":
-    userId: "f094f749-798d-0c9e-c155-53fec054b333"
+    userId: "b03edf92-dc5d-63cc-4d07-dba0bf321564"
+  "linter-js-standard": {}
+  "nord-atom-ui": {}
+  "tree-view":
+    hideVcsIgnoredFiles: false
   welcome:
     showOnStartup: false
