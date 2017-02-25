@@ -11,22 +11,38 @@ brew update
 brew upgrade --all
 
 # Install programs.
-brew install node
+brew install curl
+brew install ffmpeg
+brew install gifsicle
 brew install git
+brew install git-flow
+brew install imagemagick
+brew install jpegoptim
+brew install mysql
+brew install node
+brew install python
+brew install python3
+brew install terminal-notifier
+brew install you-get
 
 brew install brew-cask
 
 brew cask install android-file-transfer
+brew cask install avocode
 brew cask install ccleaner
 brew cask install google-chrome
 brew cask install google-drive
 brew cask install hex-fiend
 brew cask install hexchat
 brew cask install skype
-brew cask install spotify
 brew cask install slack
+brew cask install sourcetree
+brew cask install spotify
+brew cask install sublime-text
 brew cask install the-unarchiver
 brew cask install transmission
+brew cask install vagrant
+brew cask install virtualbox
 brew cask install vlc
 
 # Remove outdated versions from the cellar.
