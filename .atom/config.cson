@@ -9,8 +9,6 @@
     fontSize: 12
   "exception-reporting":
     userId: "b03edf92-dc5d-63cc-4d07-dba0bf321564"
-  "linter-js-standard": {}
-  "nord-atom-ui": {}
   "tree-view":
     hideVcsIgnoredFiles: false
   welcome:
